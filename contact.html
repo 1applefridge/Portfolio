@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <style>
+	input[type=text], textarea {
+		width: 100%;
+		padding: 10px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+		margin-top: 5px;
+		margin-bottom: 16px;
+		resize: vertical;
+		border-radius: 6px;
+	}
+
+	input[type=submit] {
+	background-color: #3A86FF;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+	border-radius: 6px;
+	}
+
+	input[type=submit]:hover {
+		background-color: #4979cd;
+	}
+
+	.box {
+ 		border-radius: 5px;
+ 		background-color: #97bdff;
+ 		padding: 20px;
+	}
+	h1 {
+		margin: 10px;
+		text-align: center;
+	}
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">Alex Zhou's Portfolio!</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!–– main content ––>
+
+<div class="box">
+<h1>Contact me!</h1>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Write your full name here.">
+
+    <label for="email">E-Mail</label>
+    <input type="text" id="lname" name="lastname" placeholder="Write your e-mail here">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write what you want me to hear." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<!–– footer ––>
+<footer class="bg-light py-4 mt-5">
+    <div class="container text-center">
+      <p class="mb-1">&copy; 2025 Alex Zhou. All rights reserved.</p>
+      <p class="mb-0">
+        <a href="files.html" class="text-decoration-none">Links to any files I have borrowed</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
