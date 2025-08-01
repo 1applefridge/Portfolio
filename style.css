@@ -36,8 +36,23 @@ html, body {
 }
 
 .container.py-5 {
-    min-height: calc(100vh - 200px); /* Adjust based on your header/footer height */
+    min-height: calc(100vh - 200px); 
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark footer,
+body.dark .navbar {
+  background-color: #1a1a1a !important;
+}
+
+body.dark .nav-link,
+body.dark .social-links a {
+  color: #f1f1f1 !important;
 }
