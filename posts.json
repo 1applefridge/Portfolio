@@ -1,12 +1,12 @@
 [
   {
-    "title": "test",
+    "title": "How I made the dark mode toggle.",
     "date": "2025-07-31",
-    "content": "test"
+    "content": "First, I created a button which contains an image of a sun, since I want to clearly show the user which mode they are on. Next, I made a CSS class dark-mode to define dark mode features, such as the background and the text. Finally, I made the JavaScript file, where whenever the button is clicked, dark-mode is removed or added from the text and background, and the button changes to a moon or sun icon. I also made sure to add the changes to the local storage so it would be remembered when someone moves to a new page."
   },
   {
-    "title": "test",
+    "title": "How I created the blog page.",
     "date": "2025-08-01",
-    "content": "testtttttt"
+    "content": "First, I made the json file, just to contain a title, date, and what I wanted to write. Then, I finished the missing code from scripts.js and added a container into the blog page to display the posts. I also added some CSS styling to have the posts look more visually appealing."
   }
 ]
