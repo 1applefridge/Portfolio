@@ -28,7 +28,7 @@ body {
 }
 
 footer {
-    background-color: #f8f9fa ;
+    background-color: #ffffff ;
 }
 
 html, body {
@@ -44,7 +44,7 @@ html, body {
 
 body.dark {
   background-color: #121212;
-  color: #f1f1f1;
+  color: #fffafa;
 }
 
 body.dark footer,
@@ -54,5 +54,5 @@ body.dark .navbar {
 
 body.dark .nav-link,
 body.dark .social-links a {
-  color: #f1f1f1 !important;
+  color: #cecece !important;
 }
